@@ -1,0 +1,23 @@
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+}
+
+#grid-container {
+    display: inline-block;
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+}
+
+.cell.alive {
+    background-color: #333;
+}
